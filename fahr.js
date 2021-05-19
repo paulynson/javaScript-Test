@@ -1,6 +1,4 @@
-//Question One: Write a function named convertfahrenheitToCelsius which takes an input
-
-// Convert fahrenheit to Celcius and comparing other datatypes input
+//Question 1. Write a function named "convertFahrToCelsius" that takes a single parameter and converts it to celsius.
 
 const convertfahrenheitToCelsius = (fahrenheit) => {
   if (fahrenheit === null || fahrenheit === undefined) {
