@@ -16,7 +16,8 @@ const convertfahrenheitToCelsius = (fahrenheit) => {
     (typeof fahrenheit === 'number' || typeof fahrenheit === 'string') &&
     /^[0-9]+$/.test(fahrenheit)
   ) {
-    console.log(fahrenheit * (9 / 5) + 32);
+    let myAns = fahrenheit * (9 / 5) + 32;
+    console.log(myAns.toFixed(4));
   } else {
     console.log(
       `${JSON.stringify(fahrenheit)} is not a valid number but a string.`
